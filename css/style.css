@@ -6,7 +6,10 @@
     margin: 0;
     box-sizing:border-box ;
 }
-
+html{
+    scroll-behavior: smooth;
+    transition: .3s;
+}
 section{
     margin-bottom: 100px;
 }
@@ -20,6 +23,7 @@ body{
 .header-top{
     background: #033b4a;
     color: #fff;
+    margin-bottom:0px;
 }
 .header-left {
     font-size: 13px;
