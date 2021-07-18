@@ -1,0 +1,126 @@
+/*XL Device :1200px */
+@media (min-width: 1450px) and (max-width: 1600px){
+
+}
+@media (min-width: 1200px) and (max-width: 1449px){
+	
+}
+
+/*LG Device :992px */
+@media (min-width: 992px) and (max-width: 1199px){
+    .contact {
+        width: 115%;
+        font-size: 14px; }
+    .research-right .re-fre-left ul {
+        margin-left: -22px;}
+    .research-right .re-fre-right ul {
+            padding-right: 10px;}
+    .hero-area .left-area h1 {
+            font-size: 50px; }
+    .hero-area .left-area p {
+            font-size: 15px;}
+    .right-area span {
+            margin-left: 0px;}
+    .right-area h4 {
+            margin-left: -30px;}
+    .research-left .research-btn .btn {
+            padding: 15px 52px; }
+    .blog .blog-box .content h4 a {
+            font-size: 17px; }
+    .call .content .content-heading h3 {
+            font-size: 19px; }
+    .footer .email {
+            margin-top: 15px; }
+}
+
+/*MD Device :768px */
+@media (min-width: 768px) and (max-width: 991px){
+    .contact {
+        width: 50%; }
+    .research-left .research-btn .btn {
+        margin-top: -87px;
+        padding: 18px 102px;}
+        .reserch-btn1 {
+            margin-top: 100px;
+        }
+    .reserch-btn1 .btn1 {
+            margin-top: 20px;
+            margin-left: -50px; }
+    .reserch-btn1 .btn2 {
+            margin-top: -70px; }
+    .services {
+            margin-bottom: 115px; }
+    .service-header {
+           text-align: center !important; }
+    .team .team-single {
+            margin-bottom: 30px; }
+    .reserch-btn1 .btn4 {
+                margin-top: 0px;
+                margin-left: 0px;
+            }
+    .provide-btn {
+                margin-top: 20px; }
+    .blog-btn{
+                margin-top: 70px; }
+    .blog .blog-box .content h4 a {
+                font-size: 14px; }
+    .blog .blog-box .content .author {
+                font-size: 10px; }
+    .blog .blog-box .content p {
+                font-size: 10px; }
+    .call .content .content-heading h3 {
+                font-size: 10px; }
+}
+
+/*Extra Small Device */
+@media (max-width: 767px){
+    section{
+        margin-bottom: 50px;
+    }
+    .service-header {
+        text-align: center !important; }
+    .contact {
+        width: 105%; }
+    .header-left {
+        font-size: 8px;
+        margin-bottom: 5px; }
+    .header-top-btn {
+        margin-left: 74px;
+        margin-right: -13px;
+        }
+   
+    .hero-area .left-area {
+            padding-top: 40px;
+            padding-bottom: -20px;
+            text-align: center; }
+    .hero-area .left-area h4 {
+                font-size: 12px; }
+    .hero-area .left-area h1 {
+        font-size: 40px;
+        line-height: 65px; }
+    .hero-area .left-area p {
+            font-size: 16px;
+            margin-bottom: 25px;
+    }
+    .research-left .research-btn .btn {
+        padding: 10px 35px; }
+    .research-right h2 {
+            font-size: 30px;}
+    .research-right .re-fre-left ul {
+                font-size: 12px; }
+    .research-right .re-fre-right ul {
+                    font-size: 10px; }
+    .services {
+        margin-bottom: 1130px;
+    }
+    .appointment .content h1 {
+        font-size: 35px;
+        line-height: 35px; }
+    .team .team-single {
+            margin-bottom: 20px; }
+}
+
+/*SM Small Device :550px */
+@media (min-width: 576px) and (max-width: 767px){
+
+}

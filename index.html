@@ -14,6 +14,8 @@
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <!-- main css -->
     <link rel="stylesheet" href="css/style.css">
+    <!-- responsive css  -->
+    <link rel="stylesheet" href="css/responsive.css">
 </head>
 <body>
   <!-- header top start -->
@@ -59,19 +61,19 @@
     <div class="collapse navbar-collapse" id="navbarNavDropdown">
       <ul class="navbar-nav ml-auto li.disabled ">
         <li class="nav-item active">
-          <a class="nav-link " href="#">Home</a>
+          <a class="nav-link " href="#home">Home</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">About</a>
+          <a class="nav-link" href="#about">About</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Service</a>
+          <a class="nav-link" href="#service">Service</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Testimonia</a>
+          <a class="nav-link" href="#testimonial">Testimonia</a>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="#">Contact Us</a>
+          <a class="nav-link" href="#contact">Contact Us</a>
         </li>
         <li class="nav-item">
           <a class="nav-link" href="#"><i class="fas fa-search"></i></a>
@@ -158,7 +160,7 @@
 </section>
 <!-- hero area  end -->
 <!-- research area  start -->
-<section class="research">
+<section class="research" id="about">
     <div class="container">
         <div class="row">
             <div class="col-lg-6">
@@ -191,7 +193,7 @@
                     </div>
                     <div class="reserch-btn1">
                         <a href="#" class="btn btn1" >view more</a>
-                        <a href="#" class="btn" >contact us</a>
+                        <a href="#" class="btn btn2" >contact us</a>
                     </div>
                 </div>
             </div>
@@ -200,47 +202,53 @@
 </section>
 <!-- research area  end -->
 <!-- services  area  start -->
-<section class="services">
+<section class="services" id="service">
     <div class="container">
-    <div class="service-header">
-        <h4>OUR SERVICES</h4>
-        <h2>Special High-quality Services</h2>
-        <p>Since its founding Brivona has been providing its patients with the full medical care, encompassing <br> outpatients services, is neurology, laboratory, imaging diagnostics and more.</p>
-    </div>
+   <div class="row">
+       <div class="col-12">
+        <div class="service-header">
+            <h4>OUR SERVICES</h4>
+            <h2>Special High-quality Services</h2>
+            <p>Since its founding Brivona has been providing its patients with the full medical care, encompassing <br> outpatients services, is neurology, laboratory, imaging diagnostics and more.</p>
+        </div>
+       </div>
+   </div> 
     
-        <div class="card-deck row">
-           <div class="col-lg-4">
-            <div class="card">
-                <img src="images/service1.jpeg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Psychiatry</h5>
-                  <p class="card-text">Our Cardiology hospital utilizes state-of-the-art technology and employs a team of true experts.</p>
+        <div class="row">
+            <div class="card-deck ">
+                <div class="col-md-4 col-12">
+                 <div class="card">
+                     <img src="images/service1.jpeg" class="card-img-top" alt="...">
+                     <div class="card-body">
+                       <h5 class="card-title">Psychiatry</h5>
+                       <p class="card-text">Our Cardiology hospital utilizes state-of-the-art technology and employs a team of true experts.</p>
+                     </div>
+                     <a href="#" class="readmore">read more</a>
+                     
+                   </div>
                 </div>
-                <a href="#" class="readmore">read more</a>
-                
-              </div>
-           </div>
-          <div class="col-lg-4">
-            <div class="card">
-                <img src="images/service2.jpeg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Cardiology</h5>
-                  <p class="card-text">Our Cardiology hospital utilizes state-of-the-art technology and employs a team of true experts</p>
-                </div>
-                <a href="#" class="readmore">read more</a>
-              </div>
-          </div>
-          <div class="col-lg-4">
-            <div class="card">
-                <img src="images/service3.jpeg" class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Lmmunology</h5>
-                  <p class="card-text">Our nurology hospital utilizes state-of-the-art technology and employs a team of true experts.</p>
-                </div>
-                <a href="#" class="readmore">read more</a>
-              </div>
-          </div>
-          </div>
+               <div class="col-md-4 col-12">
+                 <div class="card">
+                     <img src="images/service2.jpeg" class="card-img-top" alt="...">
+                     <div class="card-body">
+                       <h5 class="card-title">Cardiology</h5>
+                       <p class="card-text">Our Cardiology hospital utilizes state-of-the-art technology and employs a team of true experts</p>
+                     </div>
+                     <a href="#" class="readmore">read more</a>
+                   </div>
+               </div>
+               <div class="col-md-4 col-12">
+                 <div class="card">
+                     <img src="images/service3.jpeg" class="card-img-top" alt="...">
+                     <div class="card-body">
+                       <h5 class="card-title">Lmmunology</h5>
+                       <p class="card-text">Our nurology hospital utilizes state-of-the-art technology and employs a team of true experts.</p>
+                     </div>
+                     <a href="#" class="readmore">read more</a>
+                   </div>
+               </div>
+               </div>
+        </div>
           <div class="service-bottom">
             <h4>Don’t hesitate, contact us for better help and services. <a href="#"> Explore all Dr. Team</a> </h4>
         </div>
@@ -264,15 +272,19 @@
 </section>
 <!-- apointment area  end -->
 <!-- team area  start -->
-<section class="team">
+<section class="team" id="team">
     <div class="container">
-        <div class="service-header text-left">
-            <h4>MEET OUR EXPERIENCED TEAM</h4>
-            <h2>Our Dedicated Doctors Team</h2>
-            <p>We offer extensive medical procedures to outbound and inbound patients what it is and we are very proud of achievement of our staff, <br> We are all work together to help our all patients for recovery</p>
-        </div>
+       <div class="row">
+           <div class="col-12">
+            <div class="service-header text-left">
+                <h4>MEET OUR EXPERIENCED TEAM</h4>
+                <h2>Our Dedicated Doctors Team</h2>
+                <p>We offer extensive medical procedures to outbound and inbound patients what it is and we are very proud of achievement of our staff, <br> We are all work together to help our all patients for recovery</p>
+            </div>
+           </div>
+       </div>
         <div class="row">
-            <div class="col-lg-3">
+            <div class="col-lg-3 col-md-6">
                 <div class="team-single">
                  <div class="single-team-img">
                     <img src="images/team1.jpeg" alt="team" class="img-fluid">
@@ -283,7 +295,7 @@
                     <h3>Dr. Metthew Wood</h3>
                 </div>
             </div>
-            <div class="col-lg-3">
+            <div class="col-lg-3 col-md-6"">
                 <div class="team-single">
                  <div class="single-team-img">
                     <img src="images/team2.jpeg" alt="team" class="img-fluid">
@@ -294,7 +306,7 @@
                     <h3>Dr. Roy Coleman</h3>
                 </div>
             </div>
-            <div class="col-lg-3">
+            <div class="col-lg-3 col-md-6"">
                 <div class="team-single">
                  <div class="single-team-img">
                     <img src="images/team3.jpeg" alt="team" class="img-fluid">
@@ -305,7 +317,7 @@
                     <h3>Dr. Rabea Bosri</h3>
                 </div>
             </div>
-            <div class="col-lg-3">
+            <div class="col-lg-3 col-md-6"">
                 <div class="team-single">
                  <div class="single-team-img">
                     <img src="images/team4.jpeg" alt="team" class="img-fluid">
@@ -321,7 +333,7 @@
 </section>
 <!-- team area  end -->
 <!-- testimonial  area  start -->
-<section class="testimonial">
+<section class="testimonial" id="testimonial">
     <div class="container">
         <div class="row">
             <div class="col-12">
@@ -352,7 +364,7 @@
 </section>
 <!-- testimonial area  end -->
 <!-- contact area  start -->
-<section class="contact-area">
+<section class="contact-area" id="contact">
     <div class="container">
         
         <div class="row">
@@ -368,13 +380,31 @@
                         <h2>Make an Appointment</h2>
                         <p>Contact us any suitable way and make an appointment with the doctor whose help you need! Visit us at the scheduled time.y</p>
                     </div>
-                    <form action="#">
-                        <input type="text" placeholder="Full Name">
-                        <input type="email" placeholder="Your Email">
-                        <input type="number" placeholder="Number">
-                        <input type="text" placeholder="Select Department">
-                        <input type="text" placeholder="Appointment Date">
-                        <input type="text" placeholder="Appoinment Time">
+                    <form action="#" class="form-inline">
+                        <div class="form-group">
+                            <i class="far fa-user"></i>
+                            <input type="text" placeholder="Full Name" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <i class="fas fa-mobile-alt"></i>
+                            <input type="email" placeholder="Your Email" class="form-control">
+                        </div>
+                       <div class="form-group">
+                        <i class="far fa-envelope"></i>
+                        <input type="number" placeholder="Number" class="form-control">
+                       </div>
+                        <div class="form-group">
+                            <i class="far fa-heart"></i>
+                            <input type="text" placeholder="Select Department" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <i class="far fa-calendar-plus"></i>
+                            <input type="text" placeholder="Appointment Date" class="form-control">
+                        </div>
+                        <div class="form-group">
+                            <i class="fas fa-clock"></i>
+                            <input type="text" placeholder="Appoinment Time" class="form-control">
+                        </div>
                         <a href="#" class="btn contact-btn btn-block">get a free consultation</a>
                     </form>
                    
@@ -385,6 +415,352 @@
     </div>
 </section>
 <!-- contact area  end -->
+<!-- provide area  start -->
+<section class="provide" id="provide">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-7">
+                <div class="left-content">
+                    <div class="service-header ">
+                        <h4>WE PROVIDE</h4>
+                        <h2>Total Health Care Main Service</h2>
+                        <p>We provide the most full medical services, so every person could have the opportunity to receive qualitative medical help.</p>
+                    </div>
+                    <div class="row">
+                        <div class="col-lg-6 ">
+                            <div class="testing">
+                                <h4>DNA Testing</h4> 
+                                <p>All our surgeries are furnished with state of the art equipment <a href="#">Read More…</a> </p>
+                            </div>
+                        </div>
+                        <div class="col-lg-6">
+                            <div class="testing">
+                                <h4>Prosthodontics</h4> 
+                                <p>During our 25 years in business, we’ve gathered a seasoned <a href="#">Read More…</a> </p>
+                            </div>
+                        </div>
+                    </div>
+                    <h3>Cosmetic Dentistry</h3>
+                    <p>Clinical excellence, diversity, and the  access is to provide innovative technology are all hallmarks of graduate medical education experience at the Brivona. Our residents, fellows,Careex <a href="#"> Read More…</a> </p>
+                    <div class="reserch-btn1 provide-btn">
+                        <a href="#" class="btn btn1 btn4" >more services</a>
+                        <a href="#" class="btn btn3" >contact us</a>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-lg-5">
+                <div class="right-content">
+                    <img src="images/provide.jpeg" alt="provide the services" class="img-fluid">
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- provide area  end -->
+<!-- achievement area  end -->
+<section class="achievement" id="achievement">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-3 col-md-6">
+                <div class="content">
+                    <i class="fas fa-trophy"></i>
+                    <h2>201</h2>
+                    <h5>Award Shows</h5>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="content">
+                    <i class="far fa-user"></i>
+                    <h2>354</h2>
+                    <h5> Qualified Staffs</h5>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="content">
+                    <i class="fas fa-chalkboard"></i>
+                    <h2>528</h2>
+                    <h5>Hospital Rooms</h5>
+                </div>
+            </div>
+            <div class="col-lg-3 col-md-6">
+                <div class="content content2">
+                    <i class="fas fa-heartbeat"></i>
+                    <h2>124</h2>
+                    <h5>Machines</h5>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- achievement area  end -->
+<!-- Blog area  start -->
+<section class="blog" id="blog">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-8">
+                <div class="service-header text-left ">
+                    <h4>OUR BLOG</h4>
+                    <h2>Recent Articles and News</h2>
+                    <p>Since its founding Brivona has been providing its patients with the full medical care, encompassing outpatients services, is neurology, laboratory, imaging diagnostics and more.</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="reserch-btn1 blog-btn">
+                    <a href="#" class="btn btn1" >more articles</a>
+                
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6">
+                <div class="blog-box">
+                  <div class="row">
+                      <div class="col-md-6">
+                        <a href="#">
+                            <div class="img">
+                                <img src="images/blog1.jpeg" class="img-fluid" alt="blogimages1">
+                                <div class="date">
+                                    <h5>11</h5>
+                                    <span>Mar 2021</span>
+                                </div>
+                            </div>
+                           </a>
+                      </div>
+                    <div class="col-md-6">
+                        <div class="content">
+                            <h4><a href="#">How much aspirin to take for stroke</a></h4>
+                            <div class="author">
+                             <span class="comment"><i class="fas fa-comment"></i> 3 comments</span>
+                             <span class="user"><i class="fas fa-user"></i> Alex</span>
+                            </div>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's..</p>
+                        </div>
+                    </div>
+                  </div>
+                 
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="blog-box">
+                  <div class="row">
+                      <div class="col-md-6">
+                        <a href="#">
+                            <div class="img">
+                                <img src="images/blog2.jpeg" class="img-fluid" alt="blogimages1">
+                                <div class="date">
+                                    <h5>05</h5>
+                                    <span>Jun 2020</span>
+                                </div>
+                            </div>
+                           </a>
+                      </div>
+                    <div class="col-md-6">
+                        <div class="content">
+                            <h4><a href="#">Implant Surgical equipment technology</a></h4>
+                            <div class="author">
+                             <span class="comment"><i class="fas fa-comment"></i> 3 comments</span>
+                             <span class="user"><i class="fas fa-user"></i> Alex</span>
+                            </div>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's..</p>
+                        </div>
+                    </div>
+                  </div>
+                 
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="blog-box">
+                  <div class="row">
+                      <div class="col-md-6">
+                        <a href="#">
+                            <div class="img">
+                                <img src="images/blog3.jpeg" class="img-fluid" alt="blogimages1">
+                                <div class="date">
+                                    <h5>15</h5>
+                                    <span>Nov 2018</span>
+                                </div>
+                            </div>
+                           </a>
+                      </div>
+                    <div class="col-md-6">
+                        <div class="content">
+                            <h4><a href="#">The Benefits of Middle-Age Fitness</a></h4>
+                            <div class="author">
+                             <span class="comment"><i class="fas fa-comment"></i> 3 comments</span>
+                             <span class="user"><i class="fas fa-user"></i> Alex</span>
+                            </div>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's..</p>
+                        </div>
+                    </div>
+                  </div>
+                 
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="blog-box">
+                  <div class="row">
+                      <div class="col-md-6">
+                        <a href="#">
+                            <div class="img">
+                                <img src="images/blog4.jpeg" class="img-fluid" alt="blogimages1">
+                                <div class="date">
+                                    <h5>25</h5>
+                                    <span>Jan 2019</span>
+                                </div>
+                            </div>
+                           </a>
+                      </div>
+                    <div class="col-md-6">
+                        <div class="content">
+                            <h4><a href="#">Good Reasons to Break the Fast-Food Habit</a></h4>
+                            <div class="author">
+                             <span class="comment"><i class="fas fa-comment"></i> 3 comments</span>
+                             <span class="user"><i class="fas fa-user"></i> Alex</span>
+                            </div>
+                            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's..</p>
+                        </div>
+                    </div>
+                  </div>
+                 
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Blog area  end -->
+<!-- Call to action area  start -->
+<section class="call" id="call">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="content">
+                    <span><i class="fas fa-phone"></i></span>
+                    <div class="content-heading">
+                        <h3> +123 456 78910 / 11</h3>  
+                   <h6>Have a question? call us now</h6> 
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="content">
+                    <span><i class="far fa-envelope"></i></span>
+                    <div class="content-heading">
+                        <h3>info@domainname.com</h3>  
+                   <h6>Need support? Drop us an email</h6> 
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="content">
+                    <span><i class="far fa-clock"></i></span>
+                    <div class="content-heading">
+                        <h3>   Mon – Sat 07:00 – 21:00</h3>  
+                   <h6>We are open on </h6> 
+                 
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<!-- Call to action area  end -->
+<!-- Footer area  start -->
+<section class="footer" id="footer">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6 col-lg-3">
+                <div class="footer-header">
+                    <h3>About Brivona</h3>
+                </div>
+                <div class="content">
+                    <h5>Our Clinic has grown to provide a world class facility for the clinic advanced restorative dentistry.</h5>
+                    <h6>We are among the most qualified implant providers in the AUS with over 30 years of quality training and experience.</h6>
+                    <div class="footer-social">
+                        <span><a href="#"><i class="fab fa-facebook-f"></i></a></span>
+                        <span><a href="#"><i class="fab fa-instagram"></i></a></span>
+                        <span><a href="#"><i class="fab fa-pinterest"></i></a></span>
+                        <span><a href="#"><i class="fab fa-linkedin"></i></a></span>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <div class="footer-header">
+                    <h3>Quick Links</h3>
+                </div>
+                <div class="links">
+                   <a href="#"> Make Appointments</a> 
+                   <a href="#">Before & After</a> 
+                   <a href="#">Customer Treatments</a>  
+                   <a href="#">Our Doctors Team</a> 
+                   <a href="#">Departments Services</a>  
+                   <a href="#">About our Clinic</a> 
+                   <a href="#">Contact Us</a> 
+                </div>
+                
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <div class="footer-header">
+                    <h3>Latest News</h3>
+                </div>
+                <div class="news-box">
+                    <img src="images/blog1.jpeg" class="img-fluid" alt="blog images">
+                <div class="news-content">
+                    <h5>November 15, 2018</h5>
+                    <h3><a href="#">How much aspirin to take for stroke</a></h3>
+                </div>
+            </div>
+                <div class="news-box">
+                    <img src="images/blog1.jpeg" class="img-fluid" alt="blog images">
+                   <div class="news-content">
+                    <h5>November 15, 2018</h5>
+                    <h3><a href="#">Implant Surgical equipment technology</a></h3>
+                </div>
+            </div>
+                <div class="news-box">
+                    <img src="images/blog1.jpeg" class="img-fluid" alt="blog images">
+                <div class="news-content">
+                    <h5>November 15, 2018</h5>
+                    <h3><a href="#">The Benefits of Middle-Age Fitness</a></h3>
+                </div>
+            </div>
+               
+            </div>
+            <div class="col-md-6 col-lg-3">
+                <div class="footer-header">
+                    <h3>Our Services</h3>
+                </div>
+               <div class="service-footer">
+                <div class="sfooter-left">
+                    <a href="#">Surgery</a>
+                    <a href="#">Psychological </a> 
+                    <a href="#">Cardiology </a> 
+                     <a href="#">Orthopedics </a>
+                 </div>
+                 <div class="sfooter-right">
+                    <a href="#"> Orthopedics</a>
+                    <a href="#">Oncology </a> 
+                    <a href="#">Dermatology </a> 
+                     <a href="#">Psychological </a>
+                 </div>
+               </div>
+                <div class="footer-header footer-service-header">
+                    <h3>Newsletter</h3>
+                </div>
+                <input type="email" placeholder="Enter Your Email"> 
+                <span class="email"><i class="far fa-envelope"></i></span>
+            </div>
+        </div>
+      
+    </div>
+    <div class="footer-bottom text-center">
+        <footer>Copyright © 2021 Brivona Theme by Rashid</footer>
+       <a href="#">About Us</a> <span>|</span>
+        <a href="#">Services</a>  <span>|</span>
+        <a href="#">Privacy</a> 
+    </div>
+</section>
+<!-- Footer area  end -->
 
     
 <!-- bootstrap js -->
