@@ -880,7 +880,7 @@ body{
 }
 /* 15 footer area  */
 .footer {
-    background: #033B4A;
+    background: url(../images/footerBG.jpeg) no-repeat center/cover;
     height: auto;
     color: #fff;
     padding: 40px 0 0 0;
